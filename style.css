@@ -92,6 +92,11 @@ h3 {
     margin-bottom: 32px;
 }
 
+.h3histo {
+    text-align: center;
+}
+
+
 
 section {
     margin-bottom: 100px;
@@ -122,9 +127,6 @@ section {
     transform: translate(-50%, -50%);
 }
 
-.containerServices {
-    
-}
 
 .containerServices div{
     width: 75%;
@@ -162,6 +164,30 @@ section {
 }
 .hisbcg {
     background-color:#B9625D;
-    ;
 }
 
+.pardiv {
+    width: 40%;
+    text-align: left;
+
+}
+
+.spacehist {
+    padding: 45px;
+    color: white;
+}
+
+.margdiv {
+    margin: 50px;
+    
+}
+
+.margdiv img {
+    border-radius: 12px;
+}
+
+/* MARGE DE LA DIV SECTION HISTOIRE CHATEAU */
+.margdiv h4 {
+    margin-bottom: 15px;
+    
+}
