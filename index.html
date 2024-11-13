@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chateau de saint victor sur Loire</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
     <header class="flex spaceBetween alignCenter">
         <img src="asset/img.png" alt="logo">
-        
+
 
         <nav>
             <ul class="flex spaceBetween">
@@ -32,38 +34,52 @@
             </div>
         </section>
 
-        <!-- NOS SERVICES -->
-         <section class="flex container spaceBetween">
-            <h3>Nos services<h3>
-            <div class="flex spaceBetween ">
-                <img src="asset/reconstitution.jpg" alt="">
-                <h2>Reconstitution</h2>
-                <a class="tem" href=""></a>
-                <img src="asset/location.jpg" alt="">
-                <h2>Location</h2>
-                <img src="asset/concert.jpg" alt="">
-                <h2>Concerts</h2>
-                <img src="asset/visite.jpg" alt="">
-                <h2>Visites</h2>
-                
-            </div>
-         </section>
+        <!-- SECTION SERVICES -->
+        <section>
+            <h3>Nos services</h3>
+            <div class="containerServices flex spaceBetween">
+                <!-- div contenant les images cliquables -->
+                <div>
+                    <!-- Reconstitutions -->
+                    <a href="" title="lien de la page vers reconstitution historique">
+                        <img src="assets/reconstitution.png" alt="">
+                        <h2>Reconstititions</h2>
+                    </a>
 
-         <h2>Articles récents:</h2>
-        <div>
-            <ul>
-                <li>Animation au chateau de la loire</li>
-                <li>Animation au chateau de la loire</li>
-                <li>Animation au chateau de la loire</li>
-                <li>Animation au chateau de la loire</li>
-                <li>Animation au chateau de la loire</li>
-                <li>Animation au chateau de la loire</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Un témoignage des siècles passés</h2>
-            <p>Perché sur les hauteurs de la Loire, le Château de Saint-Victor-sur-Loire a traversé les âges, se dressant comme un témoin privilégié de l’histoire de la région. Son architecture et ses murs portent les traces de nombreux remaniements, reflets des périodes médiévales et modernes qui ont marqué son développement.</p>
-        </div>
+                    <!-- Location -->
+                    <a href="" title="lien vers la page de location du chateau">
+                        <img src="assets/location.png" alt="">
+                        <h2>Locations</h2>
+                    </a>
+
+                    <a href="" title="lien vers la page de concerts ">
+                        <img src="assets/concert.png" alt="">
+                        <h2>Concerts</h2>
+                    </a>
+
+                    <a href="" title="lien vers la page de visites">
+                        <img src="assets/visite.png" alt="">
+                        <h2>Visites</h2>
+                    </a>
+                </div>
+
+
+                <!-- listes des articles récents -->
+                <aside>
+                    <p>Article récents:</p>
+                    <ul>
+                        <li><a href="">Animation au chateau de la loire</a></li>
+                        <li><a href="">Animation au chateau de la loire</a></li>
+                        <li><a href="">Animation au chateau de la loire</a></li>
+                        <li><a href="">Animation au chateau de la loire</a></li>
+                    </ul>
+                </aside>
+            </div>
+          
+        </section>
+
+
     </main>
 </body>
+
 </html>

@@ -102,11 +102,10 @@ h1 {
 }
 
 .card {
-     {
-        display: block;
-        height: 300;
-        width: 300%;
-        position: relative;
+    display: block;
+    height: 300;
+    width: 300%;
+    position: relative;
     
 }
 
@@ -122,4 +121,18 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.containerServices {
+    background-color: pink;
+}
+
+.containerServices div{
+    width: 75%;
+}
+.containerServices aside{
+    width: 20%;
+}
+
+.containerServices img{
+    width: 300px;
 }
